@@ -1,0 +1,7 @@
+{
+  "name": "win95spa",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
