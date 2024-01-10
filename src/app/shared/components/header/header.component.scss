@@ -1,0 +1,45 @@
+@import '../../../../theme/vent95.scss';
+
+ion-header {
+    --ion-background-color: #c0c0c0;
+}
+
+.header-container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.header-title {
+    color: $vent-whithe;
+    margin-bottom: 1rem;
+    font-size: 4rem;
+    padding: 1rem;
+    font-weight: 600;
+}
+
+ion-item {
+    border-bottom: none;
+}
+
+.header-items {
+    border-top: 0.2rem solid $vent-dark-primary;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+    font-size: 4rem;
+    padding: 1rem;
+    font-weight: 600;
+    width: 100%;
+}
+
+.header-buttons {
+    background-color: $vent-primary;
+    padding: 0.5rem;
+    width: 33%;
+}
+
+.header-button {
+    text-align: center;
+    width: 100%;
+}
