@@ -1,45 +1,59 @@
 @import '../../../../theme/vent95.scss';
+@import '../../../app.component.scss';
 
-ion-header {
-    --ion-background-color: #c0c0c0;
+ion-header,
+nav {
+    background-color: $vent-primary;
+    color: $vent-whithe;
 }
 
-.header-container {
+ion-header {
     text-align: center;
     display: flex;
     flex-direction: column;
 }
 
-.header-title {
-    color: $vent-whithe;
-    margin-bottom: 1rem;
+.heading {
     font-size: 4rem;
-    padding: 1rem;
+    padding: 1.5rem;
     font-weight: 600;
 }
 
-ion-item {
-    border-bottom: none;
+nav {
+    border-top: 0.2rem solid $vent-dark-primary;
+    padding: 1rem;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
 }
 
-.header-items {
-    border-top: 0.2rem solid $vent-dark-primary;
+ul {
     display: flex;
     justify-content: center;
-    margin-bottom: 1rem;
-    font-size: 4rem;
-    padding: 1rem;
-    font-weight: 600;
-    width: 100%;
+    gap: 2rem;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    font-size: 1.4rem;
 }
 
-.header-buttons {
-    background-color: $vent-primary;
-    padding: 0.5rem;
-    width: 33%;
+a {
+    text-decoration: none;
+    color: $vent-whithe;
 }
 
-.header-button {
-    text-align: center;
-    width: 100%;
+.header-nav {
+    font-size: 1.4rem;
+    margin: 0;
+    min-width: 8rem;
+    min-height: 2rem;
+    padding: 0.2rem;
+}
+
+.header-nav:hover {
+    background: $vent-dark-primary;
+}
+
+a:hover {
+    text-decoration: underline;
 }
